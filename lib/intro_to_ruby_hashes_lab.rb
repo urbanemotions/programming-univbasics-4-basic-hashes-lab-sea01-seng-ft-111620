@@ -4,7 +4,9 @@ def new_hash
 end
 
 def my_hash
-  my_hash [:keys]
+  {
+    my_hash [:keys]
+  }
 end
 
 def pioneer
